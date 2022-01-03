@@ -1,0 +1,46 @@
+1. What is a decision tree?
+Ans: A decision tree is a part of machine learning and it is mostly used in data mining
+applications. It is a type of undirected graph that represents the decisions and their
+outcomes in a tree structure or hierarchal form.
+
+2. What is an undirected graph?
+Ans: An undirected graph is a group of nodes and edges where there is no cycle in the graph
+and there is one path between every two nodes of the graph.
+ 
+3. What represents the node and edges in a decision tree?
+Ans: In a decision tree graph, a node represents the events or choices and edges represent
+the decision rules
+
+1. Which packages build decision trees in R?
+Ans: R language provides different packages, such as party, rpart, maptree, tree, partykit,
+randomforest, etc., that create different types of trees.
+
+2. What is a ctree?
+Ans: A conditional inference tree (ctree) is a non-parametric class of regression tree that solves
+various regression problems such as nominal, ordinal, univariate and multivariate
+response variables or numbers.
+
+3. What is the use of the rpart() function?
+Ans: rpart() is a function of the ‘rpart’ package that also creates decision or classification
+trees of the given dataset.
+
+4. What is the use of the printcp() function in a decision tree?
+Ans: printcp() is a function of the ‘rpart’ package that prints the complexity parameter of
+the generated decision tree.
+
+1. What is entropy?
+Ans: Entropy is a metric for selecting the best attribute that measures the impurity of
+collected samples containing positive and negative labels.
+
+2. What is a pure dataset?
+Ans: A dataset is pure if it contains only a single class; otherwise, the dataset is impure. The
+entropy of a pure dataset is always zero and if the dataset contains equal number of
+positive and negative labels, then the entropy is always 1.
+
+3. What is the formula for calculating entropy?
+Ans: The formula for calculating entropy is Entropy(S) = – P(+) log2 P(+) – P(–)log2 P(–), where
+P(+) defines the proportion of positive examples in S and P(-) is the proportion of
+negative examples in S.
+
+4. What is the formula of calculating information gain?
+InfoGain(S, A) = entropy(s) - sigma(v belongs to values(A))(sv/s)

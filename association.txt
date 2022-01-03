@@ -1,0 +1,21 @@
+1. What are association rules?
+Ans: Association rules are part of data mining used for finding patterns in data. An
+association rule is an implication of the expression X -> Y, where X and Y are two
+disjoint itemsets and X subsetequal I and Y subsetequal I, and X intersect Y = phi.
+
+1. What is the arules package?
+Ans: The arules package provides the required infrastructure that creates and manipulates
+the input dataset for any type of mining algorithm. It also provides features to analyse
+the resulting itemsets and association rules.
+
+2. What is an “itemMatrix”?
+Ans: The arules package provides a class “itemMatrix” that efficiently represents binary
+incidence matrix containing the itemsets and items.
+
+3. What is a hash tree?
+Ans: A hash tree is a type of data structure that stores values in key-value pairs and a type of tree where every internal node contains the hash values.
+
+1. What is an apriori() function?
+Ans: The package “arules” provides a function apriori() that performs association rule
+mining using Apriori algorithm. The function mines the frequent itemsets, association
+rules, and association hyperedges.

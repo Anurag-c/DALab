@@ -1,0 +1,8 @@
+1. What is a k-means algorithm?
+Ans: k-means algorithm is an unsupervised clustering method that assigns different data
+objects into a number of clusters. It takes the input dataset (k), partitions it into a set of
+n objects, and assigns them into k clusters.
+
+2. What is a k-means() function?
+Ans: R language provides a function k-means() that performs k-means clustering on a
+data matrix.

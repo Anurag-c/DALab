@@ -1,0 +1,42 @@
+1. What is the difference between univariate and multivariate time series?
+Ans: A univariate time series is a type of time series that uses a single quantity for describing
+values. A multivariate time series is a type of time series that uses more than a single
+quantity for describing values.
+
+2. List the names of some basic R commands used for visualisation of time series data.
+Ans: plot(), hist(), boxplot(), pie(), abline(), qqnorm(), stripchart(), and
+curve() are some R commands used for visualisation of time series data.
+
+3. List the names of some basic R commands used for the manipulation of time series data.
+Ans: means(), sd(), log(), diff(), pnorm(), and qnorm() are some R commands
+used for the manipulation of time series data.
+
+4. What is filter() function?
+Ans: The filter() function performs the linear filtering of time series data and generates
+the time series of the given data.
+
+1. What is scan() function?
+Ans: The scan() function reads the data from any file. Since time series data contains data
+with respect to a successive time interval, it is the best function for reading it.
+
+2. What is the ts() function?
+Ans: The ts() function stores time series data and creates the time series object.
+
+4. What is the decompose() function?
+Ans: The decompose() function is used for the decomposition of the seasonal time series.
+It decomposes the time series into the seasonal, trend and irregular components and
+smooths time series data by calculating the moving averages.
+
+5. What is ARIMA model?
+Ans: ARIMA (Autoregressive Integrated Moving Average) is another method of time series
+forecasting. The ARIMA model explicitly defines the irregular component of a stationary
+time series with non-zero autocorrelation. It is represented by ARIMA(p,d,q) where
+parameters p, d and q define the autoregression (AR) order, the degree of differencing
+and the moving average (MA) order, respectively.
+
+2. What is the use of acf() and pacf() functions in ARIMA modelling?
+Ans: The acf() and pacf() functions determine the actual values of the autocorrelation [q] and partial autocorrelation [p] of the time series, respectively, for an ARIMA(p, q, r) model.
+
+3. What is the use of the forecast.Arima() function?
+Ans: The forecast.Arima() function makes the forecasting of the given time series using
+an ARIMA model. The function is available in the package “forecast”.

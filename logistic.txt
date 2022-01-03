@@ -1,0 +1,87 @@
+1. What do you mean by glm?
+Ans: Generalised linear model (glm) is an extension of usual regression models through a
+link function.
+
+2. What is the role of random components in the glm model?
+Ans: A random component identifies the dependent variable (response) and its probability
+distribution in the glm model.
+
+3. What is the role of the systematic component in the glm model?
+Ans: A systematic component identifies a set of explanatory variables in the glm model.
+
+4. What is the role of the link function in the glm model?
+Ans: The link function defines the relationship between a random and systematic component
+in the glm model.
+
+1. What do you mean by LR?
+Ans: Logistic regression (LR) is an extension of linear regression to environments that contain a categorical dependent variable.
+ 
+2. Which function is used to implement LR?
+Ans: The glm() function is used to implement LR.
+ 
+3. What are the uses of LR?
+Ans: Logistic regression is used to solve classification problems, discrete choice models and
+to find the probability of an event.
+ 
+4. What is BLR?
+Ans: Binomial or binary logistic regression (BLR) is a model in which the dependent variable
+is dichotomous.
+
+5. What are the parameters of the logit function?
+Ans: Odds and odds ratio are the two parameters of the logit function.
+
+6. What is MLE?
+Ans: Maximum likelihood estimator (MLE) estimates the parameters of a function in LR. For a given dataset, MLE chooses the values of model parameters that make the data ‘more likely’ than other parameter values.
+
+7. What is a likelihood function?
+Ans: Likelihood function [L(b)] represents the joint probability or likelihood of observing
+the collected data.
+ 
+8. Which functions are used to find out the likelihood function?
+Ans: The nlm() and optim() functions are used to find out the likelihood function.
+
+9. Which function is used to find MLE?
+Ans: The mle() of the package ‘stats4’ is used to find out MLE.
+
+2. What is a three-way contingency table?
+Ans: A three-way contingency table contains cross-classification of observations that use the
+level of three categorical variables.
+
+3. What is a covariate variable?
+Ans: A covariate variable is a simple variable that predicts the outcome of another variable.
+
+4. List the names of major statistical methods used to check the goodness of statistics of
+the BLR model.
+Ans: Some major statistical methods used to check the goodness of statistics of the BLR
+model are:
+Pearson chi-square statistic [X2]
+Deviance [G2]
+Likelihood ratio test and statistic [DG2]
+Hosmer-Lemeshow test and statistic
+
+1. What is Pearson residual?
+Ans: Pearson residual assesses how predictors are transformed during the fitting process. It
+uses mean and standard deviation for assessment.
+
+2. What is deviance residual?
+Ans: Deviance residual is the best diagnostic measure when individual points are not fitting
+well by the model.
+
+3. What is ‘LogisticDx’?
+Ans: ‘LogisticDx’ is an R package that provides functions for diagnosing the LR model.
+
+4. What are the major diagnostic functions of the ‘LogisticDx’ package?
+Ans: dx(), gof(), or(), and plot.glm() are some major diagnostic functions of the
+‘LogisticDx’ package.
+
+5. What is the use of gof()?
+Ans: The gof() function of ‘LogisticDx’ package checks the goodness-of-fit tests for the LR
+model. 
+
+1. What do you mean by MLR?
+Ans: MLR or multinomial logistic regression is a type of linear regression where more than
+two levels of independent variables predict the outcome of the dependent variable.
+
+2. What is the use of multinom() function?
+Ans: The multinom() function is an inbuilt function of the ‘nnet’ package of R that
+implements MLR
